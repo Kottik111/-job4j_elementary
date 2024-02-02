@@ -7,7 +7,7 @@ import static org.assertj.core.api.Assertions.withPrecision;
 
 public class FitTest {
     @Test
-    void whenMan180Then92() {
+    void whenMan187Then100Dot05() {
         short input = 187;
         double expected = 100.05;
         double output = Fit.manWeight(input);
